@@ -81,5 +81,5 @@ function reiniciarJogo() {
     }
 }
 
-//blz mano
+
 
