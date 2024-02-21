@@ -147,6 +147,10 @@ body {
 
 @media screen and (max-width: 1250px) {
 
+    body {
+        overflow: hidden;
+    }
+
     .container-title {
         display: flex;
         justify-content: center;
@@ -190,6 +194,10 @@ body {
 }
 
 @media screen and (max-width: 650px) {
+
+    body {
+        overflow: hidden;
+    }
 
     .container-title {
         display: flex;
