@@ -119,6 +119,15 @@ body {
     align-items: center;
     margin-top: 20px;
 }
+
+.creator-difficulty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: -750px;
+    font-size: 20px
+}
   
 
 @media screen and (max-width: 1250px) {
