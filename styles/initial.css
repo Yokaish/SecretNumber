@@ -166,3 +166,58 @@ body {
         padding: 5px;
     }
 }
+
+@media screen and (max-width: 650px) {
+
+    .container-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+        text-align: center;
+    }
+
+    .title {
+      font-size: 30px;
+    }
+
+    .paragraph {
+        font-size: 20px;
+    }
+
+    .container {
+        width: 360px;
+    }
+
+    .container-input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .input {
+        width: 200px;
+    }
+
+    .container-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .button {
+        padding: 8px;
+    }
+
+    .creator-difficulty {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        margin-top: -600px;
+        font-size: 20px
+    }
+    
+}
