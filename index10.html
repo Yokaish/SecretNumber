@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Number Game</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+    <div class="video-container">
+        <video id="video-background" src="video/network_-_12716 (1080p).mp4" autoplay muted loop></video>
+
+        <div class="container">
+            <div class="container-title">
+                <h1 class="title"></h1>
+                <p class="paragraph"></p>
+            </div>
+
+            <div class="container-input">
+                <input class="input" type="number">
+            </div>
+
+            <div class="container-button">
+                <button class="button" id="chutar" onclick="verificarChute()">Shot</button>
+                <button class="button" id="reiniciar" onclick="reiniciarJogo()" disabled >New Game</button>
+            </div>
+
+        </div>
+
+        <div class="creator">
+            <p class="paragraph-dev">Developed by K1</p>
+        </div>
+
+    </div>
+
+
+</body>
+<script src="/scripts/script.js"></script>
+</html>
