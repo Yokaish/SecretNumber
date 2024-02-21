@@ -129,6 +129,10 @@ body {
 
 @media screen and (max-width: 1250px) {
 
+    body {
+        overflow: hidden;
+    }
+
     .container-title {
         display: flex;
         justify-content: center;
