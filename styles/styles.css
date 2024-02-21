@@ -36,13 +36,18 @@ body {
 }
 
 .container {
-  
+    overflow: hidden;
+    word-wrap: break-word;
     padding: 100px;
     position: relative;
     z-index: 1; /* Garante que o conteúdo fique em cima do vídeo */
     background-color:rgba(75, 75, 75, 0.329);
     border: 2px solid rgba(92, 92, 92, 0.753);
     border-radius: 10px;
+}
+
+.container p {
+    white-space: pre-wrap;
 }
 
 .container-title {
@@ -156,7 +161,9 @@ body {
     }
 
     .paragraph {
+        text-align: center;
         font-size: 20px;
+        width: 300px;
     }
 
     .container {
@@ -198,7 +205,8 @@ body {
     }
 
     .paragraph {
-        font-size: 20px;
+        text-align: center;
+        font-size: 20px;   
     }
 
     .container {
@@ -231,7 +239,7 @@ body {
         justify-content: center;
         align-items: center;
         position: absolute;
-        margin-top: -600px;
+        margin-top: -630px;
         font-size: 20px
     }
     
