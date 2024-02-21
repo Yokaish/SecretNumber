@@ -8,10 +8,13 @@ if (fileName === 'index.html' ) {
 } else if (fileName === 'index10.html') {
     numeroSecreto = gerarNumeroAleatorio(10);
     exibirTextoNaTela('p', 'Choose a number between 1 and 10');
-} else if (fileName = 'index1000.html') {
+} else if (fileName === 'index1000.html') {
     numeroSecreto = gerarNumeroAleatorio(1000);
     exibirTextoNaTela('p', 'Choose a number between 1 and 1000');
-}
+} else if (fileName === 'index10000.html') {
+    numeroSecreto = gerarNumeroAleatorio(10000);
+    exibirTextoNaTela('p', 'Choose a number between 1 and 10000');
+} 
 
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
